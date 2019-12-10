@@ -1,7 +1,8 @@
 h1 {
-    color: blue
+    color: blue;
+    text-decoration: underline;
 }
 
 p {
-    color: pink
+    color: pink;
 }
