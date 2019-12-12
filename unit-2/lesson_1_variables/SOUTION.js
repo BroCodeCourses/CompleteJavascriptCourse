@@ -1,5 +1,5 @@
 /**
- * @param STARTER_CODE - Unit 2: Lesson 1
+ * @param SOLUTION - Unit 2: Lesson 1
  * @param Variables 
  */
 
