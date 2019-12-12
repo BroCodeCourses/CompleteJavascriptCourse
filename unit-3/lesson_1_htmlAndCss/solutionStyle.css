@@ -1,0 +1,36 @@
+#header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 17px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.imageContainer {
+    text-align: center;
+}
+
+.line {
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+}
+
+.gifContainer {
+    text-align: center;
+}
+
+.width50 {
+    width: 50%;
+}
+
+
+.flex {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
