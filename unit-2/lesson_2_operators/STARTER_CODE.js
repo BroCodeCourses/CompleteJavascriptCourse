@@ -3,8 +3,14 @@
  * @param Variables 
  */
 
+ /** 
+  * ================================
+  *  ARITHMETIC OPERATORS
+  * ================================
+  */
+
 /**
-  * Starter code for our lesson.
+  * Starter code for ARITHMETIC OPERATORS.
   * Uncomment the console.log() statements as you go through the exercise.
   */
  const a = 0;
@@ -14,20 +20,12 @@
  const e = 4;
  const f = 10;
 
- const string = 'Hello World!';
-
- /** 
-  * ================================
-  *  ARITHMETIC OPERATORS
-  * ================================
-  */
-
 /**
   * ACTIVITY: Set the variable below to combine variables a and b.
   * HINT: Use the + operator.
   */
 const addition;
-// console.log(`Addition: ${addition}`);
+// console.log(Addition: ${addition}. Answer is correct: ${addition === 1});
 
 
 /**
@@ -35,7 +33,7 @@ const addition;
   * HINT: Use the - operator.
   */
 const subtraction;
-// console.log(`Subtraction: ${subtraction}`);
+// console.log(Subtraction: ${subtraction}. Answer is correct: ${subtraction === 2});
 
 
 /**
@@ -43,15 +41,15 @@ const subtraction;
   * HINT: Use the * operator.
   */
  const multiplication;
- // console.log(`Multiplication: ${multiplication}`);
+ // console.log(Multiplication: ${multiplication}. Answer is correct: ${multiplication === 20});
 
 
 /**
-  * ACTIVITY: Set the variable below as the output of dividing variables b from d.
+  * ACTIVITY: Set the variable below as the output of dividing variables d by b.
   * HINT: Use the / operator.
   */
  const division;
- // console.log(`Division: ${division}`);
+ // console.log(Division: ${division}. Answer is correct: ${division === 3});
 
 
 /** 
@@ -60,7 +58,7 @@ const subtraction;
   * HINT: Use the % operator.
   */
  const moderator;
- // console.log(`Moderator: ${moderator}`);
+ // console.log(Moderator: ${moderator}. Answer is correct: ${moderator === 2});
 
 
  /** 
@@ -69,7 +67,7 @@ const subtraction;
   * HINT: Use the ++ operator.
   */
  let increment = 0;
- // console.log(`Increment: ${increment}`);
+ // console.log(Increment: ${increment}. Answer is correct: ${increment === 1});
 
  /** 
   * ACTIVITY: Decrease the variable below by 1.
@@ -77,7 +75,7 @@ const subtraction;
   * HINT: Use the -- operator.
   */
  let decrement = 0;
- // console.log(`Decrement: ${decrement}`);
+ // console.log(Decrement: ${decrement}. Answer is correct: ${decrement === -1});
 
 /** 
   * ================================
@@ -87,25 +85,159 @@ const subtraction;
  
 /** 
   * ACTIVITY: Compare two values without considering about their types.
+  * == Is used to check whether two things equal each other without checking type. For example -1 == '-1' would return true.
   * HINT: Use the == operator.
   */
-  const doubleEquals;
- // console.log(`Equals without type: ${doubleEquals}`);
+ const doubleEqualsTrue;
+ const doubleEqualsFalse;
+ // console.log(doubleEqualsTrue: ${doubleEqualsTrue}. Answer is correct: ${doubleEqualsTrue === true});
+ // console.log(doubleEqualsFalse: ${doubleEqualsFalse}. Answer is correct: ${doubleEqualsFalse === false});
 
  
  /** 
   * ACTIVITY: Compare two values while considering about their types.
+  * === Is used to check whether two things equal each other without checking type. For example -1 === '-1' would return false.
   * HINT: Use the === operator.
   */
- const tripleEquals;
- // console.log(`Equals with type: ${tripleEquals}`);
+ const tripleEqualsTrue;
+ const tripleEqualsFalse;
+ // console.log(tripleEqualsTrue: ${tripleEqualsTrue}. Answer is correct: ${tripleEqualsTrue === true});
+ // console.log(tripleEqualsFalse: ${tripleEqualsFalse}. Answer is correct: ${tripleEqualsFalse === false});
 
 
  /** 
   * ACTIVITY: Check that two values do not equal each other.
+  * != is used to compare two values. If they do not equal each other then we are returned a true value. If they do, then
+  * we are returned a false value
   * HINT: Use the != operator.
   */
- const doesNotEqual;
- // console.log(`DNE with type: ${doesNotEqual}`);
+ const doesNotEqualTrue;
+ const doesNotEqualFalse;
+ // console.log(doesNotEqualTrue: ${doesNotEqualTrue}. Answer is correct: ${doesNotEqualTrue === true});
+ // console.log(doesNotEqualFalse: ${doesNotEqualFalse}. Answer is correct: ${doesNotEqualFalse === false});
 
+
+/** 
+  * ACTIVITY: Set the variable below to return true when one number is greater than another 
+  * > is used to compare two values. if the value before the operator is greater than the second, we are returned true.
+  * HINT: Use the > operator.
+  */
+ const greaterThanTrue;
+ const greaterThanFalse;
+ // console.log(greaterThanTrue: ${greaterThanTrue}. Answer is correct: ${greaterThanTrue === true});
+ // console.log(greaterThanFalse: ${greaterThanFalse}. Answer is correct: ${greaterThanFalse === false});
+
+
+ /** 
+  * ACTIVITY: Set the variable below to return true when one number is less than another 
+  * < is used to compare two values. if the value before the operator is less than the second, we are returned true.
+  * HINT: Use the < operator.
+  */
+ const lessThanTrue;
+ const lessThanFalse;
+ // console.log(lessThanTrue: ${lessThanTrue}. Answer is correct: ${lessThanTrue === true});
+ // console.log(lessThanFalse: ${lessThanFalse}. Answer is correct: ${lessThanFalse === false});
+
+
+ /** 
+  * ACTIVITY: Set the variable below to return true when one number is less than or equal to another 
+  * <= is used to compare two values. if the value before the operator is less than or equal to the second, we are returned true.
+  * HINT: Use the <= operator.
+  */
+ const lessThanOrEqualTrue;
+ const lessThanOrEqualFalse;
+ // console.log(lessThanOrEqualTrue: ${lessThanOrEqualTrue}. Answer is correct: ${lessThanOrEqualTrue === true});
+ // console.log(lessThanOrEqualFalse: ${lessThanOrEqualFalse}. Answer is correct: ${lessThanOrEqualFalse === false});
+
+ /** 
+  * ACTIVITY: Set the variable below to return true when one number is greater than or equal to another 
+  * >= is used to compare two values. if the value before the operator is greater than or equal to the second, we are returned true.
+  * HINT: Use the >= operator.
+  */
+ const greaterThanOrEqualTrue;
+ const greaterThanOrEqualFalse;
+ // console.log(greaterThanOrEqualTrue: ${greaterThanOrEqualTrue}. Answer is correct: ${greaterThanOrEqualTrue === true});
+ // console.log(greaterThanOrEqualFalse: ${greaterThanOrEqualFalse}. Answer is correct: ${greaterThanOrEqualFalse === false});
+
+
+ /** 
+  * ================================
+  *  LOGICAL OPERATORS
+  * ================================
+  */
+
+
+/** 
+  * ACTIVITY: Use the && operator to make two comparisons and have it return true and to have it return false.
+  * && is used to check if the comparisons on each side are true. If they aren't, false is returned.
+  * HINT: Use the && operator.
+  */
+ const andTrue;
+ const andFalse;
+ // console.log(andTrue: ${andTrue}. Answer is correct: ${andTrue === true});
+ // console.log(andFalse: ${andFalse}. Answer is correct: ${andFalse === false});
+
+
+ /** 
+  * ACTIVITY: Use the || operator to make two comparisons and have it return true and to return false.
+  * || is used to check if the comparisons on either side are true. If both are false, false is returned.
+  * HINT: Use the || operator.
+  */
+ const orTrue;
+ const orFalse;
+ // console.log(orTrue: ${orTrue}. Answer is correct: ${orTrue === true});
+ // console.log(orFalse: ${orFalse}. Answer is correct: ${orFalse === false});
+
+
+/** 
+  * ACTIVITY: Use the ! operator to return false on a true value and to return a true value on a false variable;
+  * ! is used to return the opposite of the current true/false value
+  * HINT: Use the ! operator.
+  */
+ const returnFalse = true;
+ const returnTrue = false;
+ // console.log(returnFalse: ${returnFalse}. Answer is correct: ${returnFalse === true});
+ // console.log(returnTrue: ${returnTrue. Answer is correct: ${returnTrue === false});
  
+
+ /** 
+  * ================================
+  *  ASSIGNMENT OPERATORS
+  * ================================
+  */
+
+
+/** 
+  * ACTIVITY: Increase the value of our variable below by 5;
+  * += is used to increase the current variable by a number specified by the programmer.
+  * HINT: Use the += operator.
+  */
+ let plusEqual = 5;
+ // console.log(Plus equals: ${plusEqual}. Answer is correct: ${plusEqual === 10});
+
+
+ /** 
+  * ACTIVITY: Decrease the value of our variable below by 5;
+  * -= is used to decrease the current variable by a number specified by the programmer.
+  * HINT: Use the -= operator.
+  */
+ let minusEqual = 10;
+ // console.log(Minus equals: ${minusEqual}. Answer is correct: ${minusEqual === 5});
+
+
+ /** 
+  * ACTIVITY: Multiply the value of our variable below by 5;
+  * *= is used to decrease the current variable by a number specified by the programmer.
+  * HINT: Use the *= operator.
+  */
+ let multiplyEqual = 5;
+ // console.log(Multiply equals: ${multiplyEqual}. Answer is correct: ${multiplyEqual === 25});
+
+
+ /** 
+  * ACTIVITY: Divide the value of our variable below by 5;
+  * /= is used to divide the current variable by a number specified by the programmer.
+  * HINT: Use the /= operator.
+  */
+ let divideEqual = 30;
+ // console.log(Divide equals: ${divideEqual}. Answer is correct: ${divideEqual === 6});
