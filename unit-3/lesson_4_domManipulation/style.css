@@ -1,0 +1,43 @@
+h1 {
+    font-size: 75px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-emphasis: outline;
+    -webkit-text-stroke: 2px black;
+    color: white;
+}
+
+body {
+    background-image: url('images/backgroundImage.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.foodList {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 40px;
+}
+
+.listItem {
+    width: 30%;
+    margin-bottom: 50px;
+    background: wheat;
+}
+
+.listItem img {
+    width: 100%;
+    height: 300px;
+}
