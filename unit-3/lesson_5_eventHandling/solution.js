@@ -21,17 +21,6 @@ b1.addEventListener('mouseleave', () => {
 })
 
 
-// When the top left button is clicked, change the background color first to teal, then yellow, then green, and repeat.
-let b2 = document.getElementById('backgroundButton')
-
-let idx = 0;
-let colors = ['teal', 'yellow', 'green'];
-b2.addEventListener('click', () => {
-    document.querySelector('body').style.background = colors[idx % 3];
-    idx++;
-})
-
-
 // When the top right button is clicked, trigger an alert!
 let b3 = document.querySelector('#alertButton');
 
@@ -50,6 +39,7 @@ catImage.addEventListener('dragend', () => {
     document.querySelector('body').style.background = 'white';
 })
 
+
 // If the f key is pressed, raise an alert 
 let body = document.querySelector('body')
 document.addEventListener('keydown', (e) => {
@@ -57,6 +47,7 @@ document.addEventListener('keydown', (e) => {
         window.alert('paying respects')
     }
 })
+
 
 // Use the o and p buttons to change the background and font colors of all elements on the page.
 document.addEventListener('keydown', (e) => {
@@ -67,6 +58,17 @@ document.addEventListener('keydown', (e) => {
         body.style.background = 'white';
         body.style.color = 'black';
     }
+})
+
+
+// When the top left button is clicked, change the background color first to teal, then yellow, then green, and repeat.
+let b2 = document.getElementById('backgroundButton')
+
+let idx = 0;
+let colors = ['teal', 'yellow', 'green'];
+b2.addEventListener('click', () => {
+    document.querySelector('body').style.background = colors[idx % 3];
+    idx++;
 })
 
 
