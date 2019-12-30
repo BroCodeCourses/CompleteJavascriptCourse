@@ -1,0 +1,26 @@
+.flex {
+    justify-content: space-between; 
+    display: flex;
+}
+
+#backgroundButton {
+    padding: 10px;
+}
+
+.mainColumn {
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    background: inherit;
+    color: inherit;
+}
+
+#textButton {
+   font-size: 30px;
+}
+
+#catFaceImg {
+    width: 20%;
+}
