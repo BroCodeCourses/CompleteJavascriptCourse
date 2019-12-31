@@ -1,7 +1,12 @@
 # Lesson 6 - Functions
 
-Welcome to lesson 6!
+## About
+In this lesson we will be learning about functions. We will be learning how to create functions, return values inside of functions, accept parameters, closures, and immediately invoked functions.
 
-## Topics
 
-## Cheat Sheet
+## Resources
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+- https://developer.mozilla.org/en-US/docs/Glossary/IIFE
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+
+

@@ -1,7 +1,7 @@
 # Lesson 4 - Maps
 
-Welcome to lesson 4!
+## About
+In this lesson we will be learning about maps. We will learn how to create maps, modify maps and how to access different methods and attributes inside a map. 
 
-## Topics
-
-## Cheat Sheet
+## Resources
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map

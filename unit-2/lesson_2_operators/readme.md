@@ -9,4 +9,5 @@ In this lesson we will be learning the operators and how to use them in our code
 - Logical
 - Assignment
 
-## Cheat Sheet
+## Resources
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
