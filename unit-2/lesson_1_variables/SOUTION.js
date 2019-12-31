@@ -1,9 +1,5 @@
 /**
-<<<<<<< HEAD
- * @param Solution - Unit 2: Lesson 1
-=======
  * @param SOLUTION - Unit 2: Lesson 1
->>>>>>> 4882ade91090f40daa4e658e30412084c6ba5289
  * @param Variables 
  */
 
