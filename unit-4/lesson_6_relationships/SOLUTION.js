@@ -41,3 +41,24 @@ company.addEmployee(managerStacie);
 company.addEmployee(engineerJohn);
 company.addEmployee(engineerKayla);
 company.addEmployee(engineerKyle);
+
+/**
+  * ACTIVITY: Print out your company to see all the relationships you've established. 
+*/
+
+console.log(company);
+console.log(managerStacie);
+
+
+/**
+  * ACTIVITY: Is there a way we can associate an employee with a company and a manager on initialization, instead of in 2 steps?
+  * 
+  * Add this line to the employee's constructor function:
+  *   company.employees.push(this);
+  * 
+  * Add this line to to the Engeineer's constructor function:
+  *   manager.subordinates.push(this);
+  * 
+  * Try running your code after commencting out your answers to question 3 and 4.
+  * Do you get the same answer? Why or why not?
+*/
